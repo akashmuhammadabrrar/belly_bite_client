@@ -14,10 +14,10 @@ const Navbar = () => {
   const handleLogout = () => {
     logoutUser()
       .then(() => {
-        console.log("User Logout successful");
+        // console.log("User Logout successful");
       })
       .catch((error) => {
-        console.log(error.message);
+        // console.log(error.message);
       });
   };
 

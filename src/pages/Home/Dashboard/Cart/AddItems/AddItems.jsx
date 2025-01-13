@@ -22,7 +22,7 @@ const AddItems = () => {
         "Content-Type": "multipart/form-data",
       },
     });
-    console.log(res.data);
+    // console.log(res.data);
     if (res.data.success) {
       // now send the menu item data to the server with the image url
       const menuItem = {
@@ -46,7 +46,7 @@ const AddItems = () => {
         });
       }
     }
-    console.log("with image url", res.data);
+    // console.log("with image url", res.data);
   };
 
   return (
